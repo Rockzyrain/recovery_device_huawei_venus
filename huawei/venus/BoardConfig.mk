@@ -16,6 +16,9 @@
 
 DEVICE_PATH := device/huawei/venus
 
+# Asserts
+TARGET_OTA_ASSERT_DEVICE := venus,hi6250,p9lite
+
 include device/hisi/6250-common/BoardConfigCommon.mk
 
 # Partitions
