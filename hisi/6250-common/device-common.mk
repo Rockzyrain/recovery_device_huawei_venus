@@ -24,7 +24,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 PRODUCT_COPY_FILES += \
-    device/huawei/venus/recovery/root/tzdata:root/system/usr/share/zoneinfo/tzdata
+    device/huawei/venus/tzdata:root/system/usr/share/zoneinfo/tzdata
 
 PRODUCT_PACKAGES += \
     charger_res_images \

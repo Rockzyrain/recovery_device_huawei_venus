@@ -1,0 +1,13 @@
+android_device_hisi_6250-common
+===============================
+
+    Common TWRP device tree for HiSilicon Kirin 650/655 (hi6250), Nougat
+
+
+Currently supported
+-------------------
+
+* Honor 6X (berlin) - https://github.com/OpenKirin/android_device_honor_berlin
+* Huawei P9 Lite (hi6250) - https://github.com/OpenKirin/android_device_huawei_hi6250
+
+BRANCH: twrp-nougat

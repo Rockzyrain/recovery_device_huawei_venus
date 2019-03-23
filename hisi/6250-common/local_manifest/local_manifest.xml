@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="OpenKirin"
+           fetch="https://github.com/OpenKirin/" />
+
+  <!-- Modified projects -->
+  <remove-project name="android_bootable_recovery" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="OpenKirin" revision="android-7.1" />
+
+  <!-- Device projects -->
+  <project path="device/hisi/6250-common" name="android_device_hisi_6250-common" remote="OpenKirin" revision="twrp-nougat" />
+  <project path="device/honor/berlin" name="android_device_honor_berlin" remote="OpenKirin" revision="twrp-nougat" />
+  <project path="device/huawei/hi6250" name="android_device_huawei_hi6250" remote="OpenKirin" revision="twrp-nougat" />
+</manifest>
